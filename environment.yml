@@ -1,0 +1,8 @@
+name: pubmed-qr-rl
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - tensorboard
+  - pip
