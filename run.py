@@ -16,7 +16,7 @@ print(ds)
 
 SYSTEM_PROMPT = (
     "A conversation between User and Assistant. The user asks a question, and given a context, the Assistant solves it. The assistant "
-    "first thinks about the context, then reasoning process in the mind and then provides the user with the answer. The reasoning "
+    "first thinks about the context, then runs a reasoning process in the mind and finally provides the user with the answer. The reasoning "
     "process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., "
     "<think> reasoning process here </think><answer> answer here </answer>"
 )
